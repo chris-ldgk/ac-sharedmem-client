@@ -4,8 +4,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "smart-buffer": "^4.2.0",
-    "@fynnix/node-easy-ipc": "^1.0.9"
+    "smart-buffer": "^4.2.0"
   },
   "name": "ac-server-sharedmem-client",
   "version": "0.0.1",
@@ -38,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/chris-ldgk/ac-server-udp-client/issues"
   },
-  "homepage": "https://github.com/chris-ldgk/ac-server-udp-client#readme"
+  "homepage": "https://github.com/chris-ldgk/ac-server-udp-client#readme",
+  "optionalDependencies": {
+    "@fynnix/node-easy-ipc": "^1.0.9"
+  }
 }
