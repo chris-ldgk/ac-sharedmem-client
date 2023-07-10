@@ -7,7 +7,7 @@
     "smart-buffer": "^4.2.0"
   },
   "name": "ac-server-sharedmem-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A (strongly typed) Shared Memory client for Assetto Corsa server based on FynniX/acc-node-wrapper",
   "files": [
     "dist"
