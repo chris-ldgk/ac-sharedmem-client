@@ -7,14 +7,15 @@
     "smart-buffer": "^4.2.0"
   },
   "name": "ac-server-sharedmem-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A (strongly typed) Shared Memory client for Assetto Corsa server based on FynniX/acc-node-wrapper",
   "files": [
     "dist"
   ],
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
