@@ -1,0 +1,42 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "smart-buffer": "^4.2.0",
+    "@fynnix/node-easy-ipc": "^1.0.9"
+  },
+  "name": "ac-server-sharedmem-client",
+  "version": "0.0.1",
+  "description": "A (strongly typed) Shared Memory client for Assetto Corsa server based on FynniX/acc-node-wrapper",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-ldgk/ac-server-udp-client.git"
+  },
+  "keywords": [
+    "Assetto",
+    "Corsa",
+    "Server",
+    "Assetto",
+    "Corsa",
+    "Server",
+    "UDP",
+    "client",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Christoph Kolb",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/chris-ldgk/ac-server-udp-client/issues"
+  },
+  "homepage": "https://github.com/chris-ldgk/ac-server-udp-client#readme"
+}
