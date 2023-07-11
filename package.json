@@ -6,7 +6,7 @@
   "dependencies": {
     "smart-buffer": "^4.2.0"
   },
-  "name": "ac-server-sharedmem-client",
+  "name": "ac-sharedmem-client",
   "version": "0.0.6",
   "description": "A (strongly typed) Shared Memory client for Assetto Corsa server based on FynniX/acc-node-wrapper",
   "files": [
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chris-ldgk/ac-server-sharedmem-client.git"
+    "url": "git+https://github.com/chris-ldgk/ac-sharedmem-client.git"
   },
   "keywords": [
     "Assetto Corsa",
@@ -31,9 +31,9 @@
   "author": "Christoph Kolb",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/chris-ldgk/ac-server-sharedmem-client/issues"
+    "url": "https://github.com/chris-ldgk/ac-sharedmem-client/issues"
   },
-  "homepage": "https://github.com/chris-ldgk/ac-server-sharedmem-client#readme",
+  "homepage": "https://github.com/chris-ldgk/ac-sharedmem-client#readme",
   "optionalDependencies": {
     "@fynnix/node-easy-ipc": "^1.0.9"
   }
